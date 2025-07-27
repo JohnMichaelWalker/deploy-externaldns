@@ -1,0 +1,4 @@
+provider: aws
+aws:
+  region: eu-west-2
+txtOwnerId: eks-lab-cluster
