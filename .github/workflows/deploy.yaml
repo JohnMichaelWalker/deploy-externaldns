@@ -11,7 +11,7 @@ jobs:
     env:
       AWS_REGION: eu-west-2
       CLUSTER_NAME: eks-lab-cluster
-      HELM_RELEASE: garden
+      HELM_RELEASE: external-dns
       NAMESPACE: kube-system
       CHART: bitnami/external-dns
     runs-on: ubuntu-latest
