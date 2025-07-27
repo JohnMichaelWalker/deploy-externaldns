@@ -1,3 +1,9 @@
+serviceAccount:
+  create: true
+  name: external-dns
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::022239501643:role/external-dns-role
+
 provider: aws
 aws:
   region: eu-west-2
